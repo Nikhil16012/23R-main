@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form>
+        <label for="firstname">firstname:</label>
+            <input type="text" name="fname" placeholder="krish" id="firstname" required><br>
+            <br>
+        <label for="secondname">Secondname:</label>
+        <input type="text" name="sname" placeholder="arjun" id="secondname">
+        <input type="submit" value="register" /><br><br>
+
+        <label>enter an email:</label>
+        <input type="email" name="email" placeholder="xyz@gmail.com" id="qwer"><br>
+        <input type="tel" name="number" id="mobile" pattern="[0-9]{10}" /><br><br>
+ <label>choose fav colour:</label><br> 
+        <input type="radio" name="clr" value="Java is fav">Java
+   <input type="radio" name="clr" value="python is fav">python
+   <input type="radio" name="clr" value="dotnet is my fav">dotnet <br>
+   <input type="submit" value="choosen" ><br>
+   <br>
+   <br>
+   <label></label> -->
+   <CENTER><h1>BANK ACCOUNT REGISTRATION FORM</h1></CENTER>
+   <center><h2>Account Information</h2>
+   <label for="account">account type:</label>
+   <select name="account">
+    <option value="please select"  ></option>
+   <option value="Saving Account">saving account</option>
+   <option value="fixed account">fixed account</option>
+    <option value="current account">current account</option>
+    </select>    
+  
+    <label for="type">currency type:</label>
+    <select name="type" id="type">
+    <option value="please select" ></option>
+    <option value="Indian currency">Indian currency</option>
+    <option value="Us Dollar">Us Dollar</option>
+    <option value="canadian Dollar">Canadian dollar</option>
+    <option value="Austrilan dollar">Austrilan dollar</option>
+</select><br>
+<h2>Personal Information</h2>
+The information given in this section is considered as the information of the primary account owner information<br><br>
+<label for="name">First name:</label>
+<input type="text" id="name" autofocus required><br>
+
+<label for="secondname">second name:</label>
+<input type="text" id="secondname"> <br>
+<label for="number">phone number:</label>
+<input type="tel" id="number" name="number" placeholder="0000-00-00" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"><br><br>
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob"><br>
+
+<h3>Residental Address:</h3>
+<textarea rows="2" cols="30"></textarea><br>
+<label for="city">City</label>
+<input type="text" id="city" name="city">
+<label for="state">State:</label>
+<select name="state" id="state">
+    <option value="select"></option>
+    <option value="Telangana">Telangana</option>
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Kerala">Kerala</option>
+</select><br><br>
+<label for="Citizenship">Citizenship:</label><br>
+<input type="radio" name="clr">US Citizenship<br>
+<input type="radio" name="clr">Indian Citizenship<br>
+<input type="radio" name="clr">Others <br><br>
+<label for="status">Marital Status:</label>
+<select name="status" id="status">
+    <option value="select"></option>
+    <option value="married">Married</option>
+    <option value="Unmarried">Unmarried</option>
+</select> <br><br>
+<label for="occuption">Occuption:</label>
+<input type="text"  id="occuption" name="occuption"><br><br>
+<label>Do you want to add joint owner to the bank account? </label><br>
+<input type="radio" name="clr">yes  
+<input type="radio" name="clr">No<br><br>
+
+<label>By signing this form,I acknowledge that the information I've given in this form is accurate and I agree terms and conditions</label><br>
+<input type="checkbox">I agree
+<input type="checkbox">I agree<br><br>
+<label for="reset password">Reset password:</label>
+<input type="password" id="password"><br><br>
+ <label for="confirm">confirm Password:</label>
+ <input type="password" id="confirm"><br><br>
+<label for="signature">Primary owner Signature</label>
+<input type="text" placeholder="Sign here" required id="signature"><br><br>
+<input type="submit" value="register">
+   </center>
+</form>
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd2HQ4Dg-lKpde8spteOVR5YuAuQDhhrQlsA&s" heigth="150" width="150"  /></center>
+<center><h1>10000 coders Registration Form</h1></center>
+<form>
+<label for="Firstname">Name</label><br><br>
+<input type="text" placeholder="First name">
+<input type="text" placeholder="Last name"><br><br>
+<label for="clr">Gender:</label><br>
+<input type="radio" name="clr">male
+<input type="radio" name="clr">female<br><br>
+<label for="mail">Mail:</label>
+<input type="mail" placeholder="myname@example.com"><br><br>
+<label for="number">Phone Number:</label>
+<input type="tel" placeholder="0000000" pattern="0-9"{10}><br><br>
+<label for="Address">Address</label>
+<input type="text" name="address" id="Address"><br><br>
+<label for="code">zipcode:</label>
+<input type="tel" name="code" id="code" pattern="0-9"{5}><br><br>
+<label for="dob">Birth date:</label>
+<input type="datetime-local" name="dob" id="dob"><br><br>
+<label for="ss">Where did you hear about us?</label><br>
+<input type="checkbox" name="ss" id="ss">A friend or Collague<br>
+<input type="checkbox" name="ss" id="ss">Blog post<br>
+<input type="checkbox" name="ss" id="ss">News<br>
+<input type="checkbox" name="ss" id="ss">other<br><br>
+<label>Membership:</label><br>
+<input type="radio" name="clr">Standard<br>
+<input type="radio" name="clr">premium<br>
+<input type="radio" name="clr">ultimate<br>
+<label>comments:</label><br>
+<textarea name="comments" id="comments" cols="50" rows="4"></textarea><br>
+<input type="submit" value="submit">
+
+
+
+
+    </form>
+</body>
+</html>
